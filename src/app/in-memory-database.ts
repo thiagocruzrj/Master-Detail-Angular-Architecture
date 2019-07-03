@@ -11,6 +11,6 @@ export class InMemoryDatabase implements InMemoryDbService {
       { id: 4, name: 'Salary', description: 'Salarioes receivable' },
       { id: 5, name: 'Freelas', description: 'Frelance works' }
     ];
-    return categories;
+    return { categories };
   }
 }
